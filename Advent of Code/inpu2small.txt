@@ -1,5 +1,0 @@
-B X
-B X
-B Y
-A Y
-B Z
