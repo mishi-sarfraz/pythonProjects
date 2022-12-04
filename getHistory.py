@@ -3,8 +3,8 @@ import pandas as pd
 import datetime
 import time
 from nl_exception_handeling import *
-db_server="mongodb+srv://neuralLab:R2AdJL38bps2N3pr@irefer-recommendation-e.nsafb.mongodb.net"
-internal_db_server= "mongodb://mongoadmin:secret@ec2-54-66-107-43.ap-southeast-2.compute.amazonaws.com"
+db_server="mongodb+srv://-e.nsafb.mongodb.net"
+internal_db_server= "heast-2.compute.amazonaws.com"
 internalClient = pymongo.MongoClient(internal_db_server)
 # internal_client=pymongo.MongoClient(internal_db_server)
 def compiled_product_data(time_stamp,df_product):
