@@ -23,3 +23,4 @@ if today in dicbirthday:
         connection.sendmail(from_addr=my_email,
         to_addrs=my_email , 
         msg=f"Subject: Happy Birthday\n\n{letter}".encode('utf-8'))
+# Trying to get idea abt  rules of creating rules for github pull request
