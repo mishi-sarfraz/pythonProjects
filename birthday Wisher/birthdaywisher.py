@@ -13,7 +13,7 @@ if today in dicbirthday:
    person=dicbirthday[today]
    filePath="letter.txt"
    my_email="icodeguru007@gmail.com"
-   password="n*****nt"
+   password="*****"
    with open(filePath) as letter:
      letter=letter.read()
      letter=letter.replace("[Name]",person["Name"])
